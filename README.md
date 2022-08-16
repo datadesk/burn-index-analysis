@@ -2,7 +2,7 @@
 
 The Los Angeles Times conducted a geospatial analysis of the burn severity in the Sierra Nevada region with data provided by the Rapid Assessment of Vegetation Condition after Wildfire (RAVG) of the USDA Forest Service. 
 
-Findings
+## Findings
 The total area burned in Sierra Nevada in 2021 was 10.6 times that of 2012. In addition, the total area burned at high severity was 22 times greater than in 2012.
 
 3.36 billion square meters of wildfire land lost more than 75% of its canopy coverage last year, while 2.95 billion lost more than 90% of its basal area.
@@ -11,10 +11,10 @@ We reprodcued the data cleaning and wrangling process using QGIS and the GRASS p
 
 We also validated our findings by comparing the sizes of two wildfires—the North Complex Fire and the Creek Fire—calculated by our scripts to data provided by the United States Forest Service. The differences between our scripts' results and the numbers from the US Forest Service were less than 5%.
 
-Limitations
+## Limitations
 The RAVG program evaluates burn severity using regression equations that relate derivatives of Landsat or other similar imagery. Open water, as well as areas obscured by clouds, shadows, active fire, smoke, or snow, were masked and labeled as "unmappable." Furthermore, factors such as delayed mortality, resprouting, the presence of non-tree vegetation, and the occurrence of non-fire disturbances can all contribute to errors in the estimates. The database only contains records for wildland fires reported within the conterminous United States (CONUS) that include at least 1000 acres of forested National Forest System (NFS) land (500 acres for Regions 8 and 9 as of 2016).
 
-Methodology
+## Methodology
 We began by gathering TIFF data sets from 2012 to 2021 for the standardized composite burn index (CBI), percent change in basal area (BA) and percent change in canopy cover (CC).
 
 The CBI product includes four categories: unchanged, low severity, medium severity and high severity. 
