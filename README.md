@@ -24,6 +24,6 @@ The BA product includes seven categories: 0% loss, loss less than 10%, loss betw
 The CC product includes five categories: 0% loss, loss less than 25%, loss between 25% and 50%, loss between 50% and 75%, loss more than 75%. 
 
 The process follows three main paths:
-- Clip the burn severity TIFF file with the [Sierra Nevada Conservancy boundary shapefile](https://gis.data.ca.gov/maps/SNC::sierra-nevada-conservancy-boundary) using the rasterio package
+- Clip the burn severity TIFF file with the [Sierra Nevada Ecoregion shapefile](https://www.epa.gov/eco-research/ecoregion-download-files-state-region-9) using the rasterio package
 - Use GDAL to extract and calculate the area size of each category in the TIFF file
 - Save the results as dataframes
