@@ -1,2 +1,4 @@
 *.tif
 output/tif_file_by_index/*
+ai/*
+qgis-map/*
