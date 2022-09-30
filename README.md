@@ -3,9 +3,9 @@
 The Los Angeles Times conducted a geospatial analysis of the burn severity in the Sierra Nevada region with data from the Rapid Assessment of Vegetation Condition after Wildfire (RAVG) of the USDA Forest Service. 
 
 ## Findings
-The total area burned in Sierra Nevada in 2021 was 10.6 times that of 2012. In addition, the total area burned at high severity was 22 times greater than in 2012.
+The total area burned in Sierra Nevada in 2021 was 16.7 times that of 2012. In addition, the total area burned at high severity was 36 times greater than in 2012.
 
-3.36 billion square meters of wildfire land lost more than 75% of its canopy coverage last year, while 2.95 billion lost more than 90% of its basal area.
+817,000 acres of wildfire land lost more than 75% of its canopy coverage last year, while 729,000 lost more than 90% of its basal area.
 
 We reproduced the data cleaning and wrangling process using QGIS and the [GRASS plugin](https://grass.osgeo.org/grass78/manuals/r.report.html). The final results, which are saved in the "[qgis-grass](https://github.com/datadesk/burn-index-analysis/tree/main/qgis-grass)" folder of this repository, are the same as those produced by our scripts.
 
